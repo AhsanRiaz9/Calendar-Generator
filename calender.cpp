@@ -104,13 +104,14 @@ void fillSpaces(int array[][7], int row, int col)
 }
 void displayMonthName(int month)
 {
-	cout<<"\n\t\t"<<months_names[month]<<'\n';
+	cout<<"\n\t\t\t"<<months_names[month]<<'\n';
 }
 void displayMonth(int array[][7], int row, int col)
 {
-	cout << "Mon\tTu\tWed\tThur\tFri\tSat\tSun\n";
+	cout << "\tMon\tTu\tWed\tThur\tFri\tSat\tSun\n";
 	for (int i = 0; i < row; i = i + 1)
 	{
+		cout<<'\t';
 		for (int j = 0; j < col; j = j + 1)
 		{
 			if (array[i][j] == ' ')
