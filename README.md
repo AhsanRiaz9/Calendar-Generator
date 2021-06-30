@@ -8,5 +8,5 @@ Use C++ Compiler to run this program.
 
 
 Output: 
-![Output Of Program](https://github.com/AhsanRiaz9/Calendar-Generator/output.jpg)
+![Output Of Program](output.jpg)
 
